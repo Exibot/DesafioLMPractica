@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+menu ul {
+    display: flex;
+    align-items: flex-start;
+    height: 4em;
+}
+
+a{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item{
+    width: 10em;
+    height: 10em;
+    border: solid 1px black;
+}

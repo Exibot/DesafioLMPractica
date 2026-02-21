@@ -1,0 +1,40 @@
+body {
+    font-family:
+        "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.header {
+    height: 5em;
+    padding: 5em;
+    font-size: 2em;
+    background-image: url(../imgs/107-200x300.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header h1 {
+    margin: 0px;
+    font-weight: 400;
+}
+.productos {
+    width: 80%;
+    margin: 0 auto;
+}
+.productos td {
+    width: 50%;
+    padding: 2em;
+}
+.productos img {
+    width: 100%;
+    border: solid 1px black;
+}
+
+.footer{
+    height: 3em;
+    line-height: 2em;
+    background-color: rgb(185, 112, 41);
+    color: white;
+    text-align: center;
+    font-weight: 900;   
+}

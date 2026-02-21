@@ -1,0 +1,36 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.item{
+    display: inline-block;
+}
+
+.menu{
+    background-color: black;
+    color: white;
+    line-height: 50px;
+}
+
+menu ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: goldenrod;
+}
+
+a::first-letter{
+    text-transform: uppercase;
+}
