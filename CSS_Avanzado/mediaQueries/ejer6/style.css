@@ -1,0 +1,27 @@
+.gallery {
+    display: grid;
+    gap: 10px;
+}
+
+@media (max-width: 576) {
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 576px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (min-width: 768px) {
+    .gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (min-width: 992px) {
+    .gallery {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+

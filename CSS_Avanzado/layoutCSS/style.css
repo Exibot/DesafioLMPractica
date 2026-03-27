@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.layout-container {
+    display: grid;
+    justify-content: center;
+    grid-template-areas:
+        "header header header"
+        "menu menu menu"
+        "aside main article"
+        "footer footer footer";
+    gap: 10px;
+    padding: 10px;
+    min-height: 100vh;
+}
+
+header {
+    grid-area: header;
+}
+menu {
+    grid-area: menu;
+}
+
+aside {
+    grid-area: aside;
+}
+
+main {
+    grid-area: main;
+}
+
+article {
+    grid-area: article;
+}
+
+footer {
+    grid-area: footer;
+}

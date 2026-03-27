@@ -1,0 +1,33 @@
+.bg {
+    background-position: center;
+    background-size: cover;
+}
+
+.imagen1 {
+    grid-area: a;
+    background-image: url("https://picsum.photos/200/300");
+}
+.imagen2 {
+    grid-area: b;
+    background-image: url("https://picsum.photos/200/300?grayscale");
+}
+.imagen3 {
+    grid-area: c;
+    background-image: url("https://picsum.photos/200/300?blur");
+}
+.imagen4 {
+    grid-area: d;
+    background-image: url("https://picsum.photos/200/300?random=1");
+}
+
+
+.galeria {
+    height: 100vh;
+    gap: 10px;
+    display: grid;
+    grid-template-areas:
+        "d d d d"
+        "a a b b"
+        "a a b b"
+        "c c c c";
+}

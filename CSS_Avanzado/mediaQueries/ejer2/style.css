@@ -1,0 +1,11 @@
+@media(max-width: 576px) {
+    .parrafo{
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
+
+@media(min-width: 577px) {
+    .parrafo{
+        font-family: 'Arial', sans-serif;
+    }
+}

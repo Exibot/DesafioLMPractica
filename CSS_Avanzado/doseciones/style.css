@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 9em;
+    background-color: aqua;
+    min-height: 100vh;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+}

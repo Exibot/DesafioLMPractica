@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cards {
+    display: flex;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 10em;
+    border: solid 1px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.card-body {
+    flex-grow: 0;
+}

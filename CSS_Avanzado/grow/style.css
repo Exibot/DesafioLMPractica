@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+}
+.flex-item{
+    background-color: aqua;
+    border: 1px solid black;
+    margin: 1px;
+    flex-basis: 400px;
+    flex-shrink: 1;
+}

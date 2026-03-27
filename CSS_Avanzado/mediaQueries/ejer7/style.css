@@ -1,0 +1,29 @@
+ul{
+    background-color: rgb(38, 136, 38);
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+li{
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+@media (min-width: 600px) {
+    ul{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 900px) {
+    ul{
+        justify-content: flex-end;
+    }
+}

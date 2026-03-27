@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+}
+
+.boton-nuevo-chat {
+    padding: 10px 20px;
+    background-color: rgb(162, 48, 162);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border-bottom: 1px solid grey;
+}
+
+.perfil-personal {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid grey;
+    padding: 15px;
+}
+
+.contacto {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid grey;
+    cursor: pointer;
+}
+
+.foto-perfil {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.barra-lateral {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border: 1px solid #ccc;
+    height: 100vh;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.mensajes {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}

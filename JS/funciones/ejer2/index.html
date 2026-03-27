@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Borde en imagenes</title>
+    </head>
+    <body>
+        <img src="https://picsum.photos/200/300" alt="Imagen 1" id="img1" onclick="agregarBorde('img1')" />
+        <img src="https://picsum.photos/200/300" alt="Imagen 2" id="img2" onclick="agregarBorde('img2')" />
+        <img src="https://picsum.photos/200/300" alt="Imagen 3" id="img3" onclick="agregarBorde('img3')" />
+
+        <script>
+            function agregarBorde(id) {
+                const imagenes = document.querySelectorAll("#"+id);
+                imagenes.forEach((imagen) => {
+                    imagen.style.border = "5px solid red";
+                });
+            }
+        </script>
+    </body>
+</html>

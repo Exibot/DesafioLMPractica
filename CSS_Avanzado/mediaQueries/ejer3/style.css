@@ -1,0 +1,21 @@
+h3{
+    color: crimson;
+}
+
+@media (min-width: 576px) {
+    h3{
+        color: purple;
+    }
+}
+
+@media (min-width: 768px) {
+    h3{
+        color: green;
+    }
+}
+
+@media (min-width: 992px) {
+    h3{
+        color: chocolate;
+    }
+}

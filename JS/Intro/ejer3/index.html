@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container">
+            <button id="btn-enviar" disabled="true">Enviar</button>
+            <button id="btn-revisar" onclick="revisar()">Revisar</button>
+            Informacion 1: <input type="checkbox" id="check1" /><br />
+            Informacion 2: <input type="checkbox" id="check2" /><br />
+        </div>
+
+        <script>
+            function revisar() {
+                const check1 = document.getElementById("check1").checked;
+                const check2 = document.getElementById("check2").checked;
+                const btnEnviar = document.getElementById("btn-enviar");
+
+                check1 || check2
+                    ? (btnEnviar.disabled = false)
+                    : (btnEnviar.disabled = true);
+            }
+        </script>
+    </body>
+</html>

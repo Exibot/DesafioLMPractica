@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambiar background color</title>
+</head>
+<body>
+
+    <button onclick="cambiarColor('black')">Cambiar a negro</button>
+    <button onclick="cambiarColor('blue')">Cambiar a azul</button>
+
+    <script>
+        function cambiarColor(color) {
+            elemento = document.querySelector("body")
+            elemento.style.backgroundColor = color;
+        }
+    </script>
+    
+</body>
+</html>

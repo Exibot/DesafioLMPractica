@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Titulo</title>
+    </head>
+    <body>
+        <img src="https://picsum.photos/200/300" id="imagen" alt="Random photo" />
+
+        <button
+            onclick="
+                elemento = document.querySelector('#imagen');
+                elemento.style.borderRadius = '50%';
+            "
+        >
+            Con Borde
+        </button>
+
+        <button
+            onclick="
+                elemento = document.querySelector('#imagen');
+                elemento.style.borderRadius = '0%';
+            "
+        >
+            Sin Borde
+        </button>
+
+        <script></script>
+    </body>
+</html>

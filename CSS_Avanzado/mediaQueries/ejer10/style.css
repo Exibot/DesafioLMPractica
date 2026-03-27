@@ -1,0 +1,39 @@
+div {
+    display: grid;
+    grid-template-rows: 1fr 10fr 1fr;
+    grid-template-areas:
+        "nav"
+        "main"
+        "footer";
+    border: 1px solid black;
+}
+
+nav {
+    grid-area: nav;
+    background-color: red;
+    padding: 10px;
+    color: white;
+}
+
+main {
+    grid-area: main;
+    background-color: white;
+    padding: 10px;
+}
+
+footer {
+    grid-area: footer;
+    background-color: blue;
+    padding: 10px;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    div {
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:
+            "nav main"
+            "nav main"
+            "nav footer";
+    }
+}
